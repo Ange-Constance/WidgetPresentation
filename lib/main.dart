@@ -14,3 +14,30 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+class ParticleDemo extends StatelessWidget {
+  const ParticleDemo({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
+
+    return Scaffold(
+      body: Stack(
+        children: [
+          // Particle background will be added later
+          Center(
+            child: Text(
+              'Welcome to My App!',
+              style: TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.bold,
+                color: Colors.white.withOpacity(0.9),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
