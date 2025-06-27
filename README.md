@@ -1,3 +1,4 @@
+![ParticleField](https://github.com/user-attachments/assets/96a4656e-a444-4182-a258-c27bb974f483)
 # Particle Background Flutter App
 
 This is a simple Flutter application that demonstrates how to use the `particles_flutter` package to create a dynamic and interactive particle animation background, with a welcome message overlayed in the center.
