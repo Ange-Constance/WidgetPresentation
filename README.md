@@ -17,3 +17,6 @@ dependencies:
   flutter:
     sdk: flutter
   particles_flutter: ^0.1.1  # or latest available version
+
+run the app:
+flutter run
